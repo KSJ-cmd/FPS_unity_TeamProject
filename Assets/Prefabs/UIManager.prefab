@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &557737040937575531
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 557737040937575533}
+  - component: {fileID: 557737040937575530}
+  m_Layer: 0
+  m_Name: UIManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &557737040937575533
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 557737040937575531}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.3241895, y: 1.5904752, z: -0.2121582}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &557737040937575530
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 557737040937575531}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba931ccf11deaf341a189865bf88e633, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UIcanvas: {fileID: 0}
+  HGUI: {fileID: 0}
+  ARUI: {fileID: 0}
+  SRUI: {fileID: 0}
+  LootingHGUI: {fileID: 2514240142634394733, guid: 64f64f300dd628a42857e5d14cb01e24,
+    type: 3}
+  LootingARUI: {fileID: 2117283672719275610, guid: 1c130e14a32c97d44993e6f5cc10d514,
+    type: 3}
+  LootingSRUI: {fileID: 6091714066042652269, guid: 184cbb960e0f16a4d91743e02e303f64,
+    type: 3}
+  LootingItem: []
